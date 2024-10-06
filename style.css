@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    background-image: url(assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.box{
+    position: absolute;
+    top: 0;
+    background-color: black;
+    opacity: 0.70;
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    max-width: 80vw;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    align-items: center;
+    height: 100px;
+}
+nav img{
+    width: 130px;
+    position: relative;
+}
+
+.lang_btn{
+    position: relative;
+    background-color: black;
+    color: white;
+    border-style: none;
+    border: 1px solid rgb(175, 171, 171);
+    border-radius: 6px;
+    padding: 5px;
+    width: 120px;
+    right: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.si_btn{
+    position: relative;
+    background-color: red;
+    border: none;
+    padding: 8px;
+    color: white;
+    border-radius: 4px;
+    width: 80px;
+    bottom: 2.2px;
+    cursor: pointer;
+}
+.content{
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    color: white;
+    z-index: 10;
+    padding-top: 120px;
+}
+.content>:nth-child(1){
+    font-size: 60px;
+    font-weight: 900;
+}
+.content>:nth-child(2){
+    font-size: 60px;
+    font-weight: 900;
+}
+.content>:nth-child(3){
+    font-size: 60px;
+    font-weight: 900;
+}
+.content>:nth-child(4){
+    font-size: 25px;
+    font-weight: 500;
+}
+.content>:nth-child(5){
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.pl_btn{
+    height: 50px;
+    width: 300px;
+    background: rgba(22, 22, 22, 0.7);
+    border: none;
+    margin-top: 20px;
+    padding: 10px 10px;
+    border: 1px solid;
+    border-color: rgba(128, 128, 128, 0.7);
+    border-radius: 4px;
+    font-size: larger;
+}
+.gt_btn{
+    color: white;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 4px;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    margin-left: 5px;
+    width: 200px;
+    font-size: 25px;
+    height: 50px;
+}
+.gt_btn svg{
+ position: relative;
+ top: 3.5px;
+}
+.trending-page{
+    height: 20vh;
+    width: 50vw;
+}
+.trending-page h2{
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+
+.trending-page button{
+    position: relative;
+    top: 50px;
+    color: white;
+    left: 101px;
+    height: 40px;
+    width: 120px;
+    background-color: black;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 6px;
+    border: 1px solid rgb(175, 171, 171);
+}
+.posters{
+    display: flex;
+    overflow: hidden;
+    margin-left: 100px;
+    /* width: 80vw;  */
+}
+.arrow{
+    display: flex;
+    width: 90vw;
+}
+.arrow-right{
+    position: relative;
+    top: 100px;
+    left: 10px;
+    color: white;
+    z-index: 10p;
+    height: 130px;
+    width: 30px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: opacity 400ms ease-in-out;
+    display: flex;
+    border-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.posters img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 190px;
+    height: 280px;
+    border-radius: 8px;
+    margin: 10px 25px;
+    cursor: pointer;
+}
+.posters .number{
+    height: 0px;
+    position: relative;
+    top: 165px;
+    font-size: 100px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.1rem rgb(255, 255, 255);
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+}
+.more .heading{
+    color: white;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 100px;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.boxes{
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+}
+   
+.more-box{
+    /* display: flex; */
+    width: 300px;
+    height: 280px;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    border-radius: 8px;
+    margin: 18px 8px;
+}
+.more-box h3{
+    color: white;
+    position: relative;
+    left: 0px;
+    padding: 20px;
+    font-size: 1.25em;
+}
+.more-box p{
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    left: 0px;
+    font-size: 1.1em;
+    padding: 0px 20px;
+}
+.more-box svg{
+    position: relative;
+    top: 55px;
+    bottom: 10px;
+    left: 205px;
+}
