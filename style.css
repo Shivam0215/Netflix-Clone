@@ -5,6 +5,7 @@
 }
 body{
     background-color: black;
+    color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .main{
@@ -96,12 +97,13 @@ nav img{
     font-size: 16px;
     font-weight: 500;
 }
+.content_btn{
+    margin-top: 20px;
+}
 .pl_btn{
     height: 50px;
     width: 300px;
     background: rgba(22, 22, 22, 0.7);
-    border: none;
-    margin-top: 20px;
     padding: 10px 10px;
     border: 1px solid;
     border-color: rgba(128, 128, 128, 0.7);
@@ -110,12 +112,11 @@ nav img{
 }
 .gt_btn{
     color: white;
-    position: relative;
     justify-content: center;
     align-items: center;
-    top: 4px;
     background-color: red;
     border: none;
+    cursor: pointer;
     border-radius: 4px;
     margin-left: 5px;
     width: 200px;
@@ -236,4 +237,88 @@ nav img{
     top: 55px;
     bottom: 10px;
     left: 205px;
+}
+.question_section .container{
+    margin-top: 40px;
+    margin-left:100px;
+    margin-right:130px;
+    
+}
+.container h2{
+    color: white;
+    font-weight: 600;
+}
+.container ul li{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    list-style: none;
+    background-color: rgb(45, 45, 45);
+    padding: 10px;
+    margin: 10px 0px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    font-weight: 600;
+}
+.container ul li svg{
+    margin-left: 10px;
+    flex-shrink: 0;
+}
+.content_section{
+    margin-left: 100px;
+}
+.content_section p{
+    margin-top: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.content_section .content_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content_section .pl_btn{
+    width: 600px;
+}
+.footer{
+    height: 55vh;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.footer span{
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer span a{
+    color: rgba(255, 255, 255, 0.7);
+}
+.links{
+    margin-top: 40px;
+}
+.links ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    list-style: none;
+    padding: 0; 
+}
+
+.links li {
+    text-align: left;
+}
+
+.links a { 
+    color: rgba(255, 255, 255, 0.7); 
+}
+.footer .lang_btn{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.netflix_india{
+    color: rgba(255, 255, 255, 0.7); 
+    margin-top: 50px;
 }
